@@ -1,0 +1,130 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f6;
+  margin: 0;
+  padding: 20px;
+  padding-top: 56px; /* Adjust this value to match the height of the navbar */
+
+}
+
+/* Main container for the form */
+.container {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+/* Styling for the inputs */
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Styling for buttons */
+button {
+  display: inline-block;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Message and error styling */
+#msg {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+/* Sections hidden by default */
+.xo-sections {
+  display: none;
+}
+
+/* Section header */
+.section-header {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 5px;
+}
+
+/* Optional: Change style of textarea */
+textarea {
+  height: 150px;
+  resize: none;
+}
+/* General styling for form */
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Flexbox layout for rows with side-by-side inputs */
+.input-row {
+  display: flex;
+  gap: 20px; /* Add space between the input fields */
+}
+
+/* Flexbox child styling: ensure that each input field takes equal space */
+.input-row .input-group {
+  flex: 1;
+}
+
+/* Adjust margin and padding for buttons */
+button {
+  display: block;
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px; /* Add margin to push button down from input fields */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Add specific margin to separate the form from surrounding content */
+form {
+  margin-top: 20px;
+}
